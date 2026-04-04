@@ -1,10 +1,13 @@
-# Ignore environment variables
+# Environment variables (secrets)
 .env
+.env.*
 
-# Ignore Python cache
+# Python cache
 __pycache__/
 *.pyc
 
-# Optional
+# Virtual environment
 venv/
-.env.*
+
+# OS files
+.DS_Store
