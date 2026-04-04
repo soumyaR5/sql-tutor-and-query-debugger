@@ -1,0 +1,10 @@
+[
+  {
+    "query": "SELECT name FROM students",
+    "correct": 1
+  },
+  {
+    "query": "SELECT FROM students",
+    "correct": 0
+  }
+]
