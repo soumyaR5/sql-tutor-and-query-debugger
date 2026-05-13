@@ -1,128 +1,69 @@
 # 🧠 AI Powered SQL Tutor & Query Debugger
 
-## 📌 Overview
-
-This project is an **AI-powered SQL assistant** that helps users **debug SQL queries, understand errors, and learn SQL concepts interactively**.
-
-It acts as both:
-
-* 🔍 A **Query Debugger** (fixes incorrect SQL queries)
-* 📚 A **SQL Tutor** (explains queries and concepts in simple terms)
+An AI-powered platform that helps users debug SQL queries, understand database errors, and learn SQL concepts interactively through intelligent explanations and query correction assistance.
 
 ---
 
-## 🎯 Objectives
+# 📌 Problem Statement
 
-* Detect and correct SQL query errors
-* Explain SQL queries in natural language
-* Assist beginners in learning SQL concepts
-* Provide intelligent suggestions using AI models
+Learning SQL can be challenging for beginners, especially when dealing with syntax errors, incorrect query logic, and understanding database concepts. Many learners struggle to identify why a query fails and how to fix it efficiently.
 
----
-
-## ⚙️ Features
-
-* ✅ SQL Query Debugging
-* ✅ Natural Language to SQL Explanation
-* ✅ Error Detection & Correction
-* ✅ Beginner-Friendly Explanations
-* ✅ AI-powered interaction
+This project aims to simplify the SQL learning process by providing:
+- Intelligent SQL query debugging
+- Beginner-friendly explanations
+- Query correction suggestions
+- Interactive AI-powered assistance
 
 ---
 
-## 🧠 How It Works
+# 🚀 Features
 
-1. User inputs an SQL query
-2. System analyzes syntax and logic
-3. AI model identifies errors and suggests fixes
-4. Generates corrected query + explanation
+- ✅ SQL Query Debugging
+- ✅ SQL Error Detection & Correction
+- ✅ Natural Language Explanation of Queries
+- ✅ Beginner-Friendly SQL Guidance
+- ✅ AI-Powered Query Assistance
+- ✅ Interactive Learning Support
+- ✅ SQL Concept Understanding
 
 ---
 
-## 📂 Project Structure
+# 🧠 How It Works
 
-```id="8y2v3r"
+1. User enters an SQL query
+2. The system analyzes query syntax and logic
+3. AI identifies mistakes and problematic statements
+4. Suggested corrections are generated
+5. The corrected query is explained in simple language
+
+---
+
+# 🛠️ Tech Stack
+
+## Backend
+- Python
+
+## Database
+- SQL
+
+## AI & NLP
+- NLP Techniques
+- AI / LLM Integration
+
+## Tools & Libraries
+- OpenAI API
+- Environment Variables (.env)
+
+---
+
+# 📂 Project Structure
+
+```bash
 ai-sql-debugger/
 │
-├── main.py              # Entry point
-├── utils.py             # Helper functions
-├── requirements.txt     # Dependencies
+├── main.py              # Main application entry point
+├── utils.py             # Utility/helper functions
+├── requirements.txt     # Project dependencies
 ├── .env.example         # Sample environment variables
 ├── .gitignore           # Ignored files
 └── README.md
-```
-
----
-
-## 🔐 Environment Variables
-
-Create a `.env` file and add:
-
-```env id="c9xgcs"
-OPENAI_API_KEY=your_api_key_here
-```
-
-⚠️ `.env` is ignored for security reasons.
-
----
-
-## 🚀 How to Run
-
-### 1. Clone Repository
-
-```id="9q5hwv"
-git clone https://github.com/your-username/sql-tutor-and-query-debugger.git
-cd sql-tutor-and-query-debugger
-```
-
-### 2. Install Dependencies
-
-```id="4o3rnl"
-pip install -r requirements.txt
-```
-
-### 3. Run the Application
-
-```id="3cz0ci"
-python main.py
-```
-
----
-
-## 🛠️ Tech Stack
-
-* Python
-* SQL
-* Natural Language Processing (NLP)
-* AI / LLM Integration
-
----
-
-## 📊 Use Cases
-
-* Students learning SQL
-* Data Analysts debugging queries
-* Interview preparation
-* Automated query validation systems
-
----
-
-## 🔮 Future Enhancements
-
-* 🌐 Web-based UI (Streamlit / Chainlit)
-* 📊 Query performance optimization suggestions
-* 🗄️ Database integration (PostgreSQL / MySQL)
-* 📈 Query history & analytics dashboard
-
----
-
-## 👤 Author
-
-**Soumya Ramchandran**
-Aspiring Data Analyst | AI & BI Enthusiast
-
----
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a star ⭐
