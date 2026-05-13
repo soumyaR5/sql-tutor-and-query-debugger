@@ -125,7 +125,7 @@ OPENAI_API_KEY=your_api_key_here
 ## 4️⃣ Run the Application
 
 ```bash
-python main.py
+python app.py
 ```
 
 ---
