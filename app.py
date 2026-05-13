@@ -12,7 +12,7 @@ db_url = os.getenv("DB_URL")  # ✅ Load once
 
 def create_agent(db_url: str):
     sql_agent = Agent(
-        tools=[SQLTools(db_url=db_url)],  # ✅ fixed
+        tools=[SQLTools(db_url=db_url)],  
         model=Groq(id="openai/gpt-oss-120b", api_key=api_key),
         add_chat_history_to_messages=True,
         num_history_responses=3,
