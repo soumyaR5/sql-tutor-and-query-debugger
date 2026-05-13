@@ -134,19 +134,23 @@ python main.py
 
 ## Home Interface
 
-(Add screenshot here)
+<img width="975" height="515" alt="image" src="https://github.com/user-attachments/assets/82d2d563-3654-42f5-9d10-67e27e2308fb" />
+
 
 ## SQL Query Debugging
 
-(Add screenshot here)
+<img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/01f4ea88-50c0-4a65-b6c5-253fbfca0aff" />
 
-## Error Explanation
 
-(Add screenshot here)
+## Error Explanation and Corrected Query Output
 
-## Corrected Query Output
+<img width="975" height="511" alt="image" src="https://github.com/user-attachments/assets/429d0c0a-5e23-495b-80e1-c13832b8272b" />
 
-(Add screenshot here)
+
+## Practice Questions
+
+<img width="975" height="512" alt="image" src="https://github.com/user-attachments/assets/00dca6c1-08f3-4b14-bc35-9229549ca181" />
+
 
 ---
 
