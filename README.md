@@ -9,22 +9,23 @@ An AI-powered platform that helps users debug SQL queries, understand database e
 Learning SQL can be challenging for beginners, especially when dealing with syntax errors, incorrect query logic, and understanding database concepts. Many learners struggle to identify why a query fails and how to fix it efficiently.
 
 This project aims to simplify the SQL learning process by providing:
-- Intelligent SQL query debugging
-- Beginner-friendly explanations
-- Query correction suggestions
-- Interactive AI-powered assistance
+
+* Intelligent SQL query debugging
+* Beginner-friendly explanations
+* Query correction suggestions
+* Interactive AI-powered assistance
 
 ---
 
 # 🚀 Features
 
-- ✅ SQL Query Debugging
-- ✅ SQL Error Detection & Correction
-- ✅ Natural Language Explanation of Queries
-- ✅ Beginner-Friendly SQL Guidance
-- ✅ AI-Powered Query Assistance
-- ✅ Interactive Learning Support
-- ✅ SQL Concept Understanding
+* ✅ SQL Query Debugging
+* ✅ SQL Error Detection & Correction
+* ✅ Natural Language Explanation of Queries
+* ✅ Beginner-Friendly SQL Guidance
+* ✅ AI-Powered Query Assistance
+* ✅ Interactive Learning Support
+* ✅ SQL Concept Understanding
 
 ---
 
@@ -41,18 +42,22 @@ This project aims to simplify the SQL learning process by providing:
 # 🛠️ Tech Stack
 
 ## Backend
-- Python
+
+* Python
 
 ## Database
-- SQL
+
+* SQL
 
 ## AI & NLP
-- NLP Techniques
-- AI / LLM Integration
+
+* NLP Techniques
+* AI / LLM Integration
 
 ## Tools & Libraries
-- OpenAI API
-- Environment Variables (.env)
+
+* OpenAI API
+* Environment Variables (.env)
 
 ---
 
@@ -67,3 +72,156 @@ ai-sql-debugger/
 ├── .env.example         # Sample environment variables
 ├── .gitignore           # Ignored files
 └── README.md
+```
+
+---
+
+# 🔐 Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+⚠️ Note:
+
+* Never expose your API key publicly
+* `.env` is ignored using `.gitignore`
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/soumyaR5/sql-tutor-and-query-debugger.git
+cd sql-tutor-and-query-debugger
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 3️⃣ Configure Environment Variables
+
+Create a `.env` file and add your OpenAI API key.
+
+Example:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+---
+
+## 4️⃣ Run the Application
+
+```bash
+python main.py
+```
+
+---
+
+# 📸 Screenshots
+
+## Home Interface
+
+(Add screenshot here)
+
+## SQL Query Debugging
+
+(Add screenshot here)
+
+## Error Explanation
+
+(Add screenshot here)
+
+## Corrected Query Output
+
+(Add screenshot here)
+
+---
+
+# 📊 Use Cases
+
+* 📚 SQL Learning for Beginners
+* 🧑‍💻 Query Debugging Practice
+* 📈 Data Analyst SQL Preparation
+* 🎯 Interview Preparation
+* 🗄️ Database Query Validation
+* 🤖 AI-assisted SQL Learning
+
+---
+
+# 🎯 Key Learning Outcomes
+
+Through this project:
+
+* Improved understanding of SQL debugging
+* Explored AI-assisted query analysis
+* Worked with NLP-based explanations
+* Learned API integration concepts
+* Built an educational developer tool
+
+---
+
+# 🔮 Future Enhancements
+
+* 🌐 Web-based UI using Streamlit / React
+* 🗄️ PostgreSQL & MySQL Integration
+* 📊 Query Performance Optimization Suggestions
+* 📈 Query History Dashboard
+* 🔐 User Authentication
+* 🤖 More Advanced AI Query Suggestions
+* 📚 SQL Practice Exercises
+
+---
+
+# 🤝 Contribution
+
+Contributions, suggestions, and improvements are welcome.
+
+Feel free to:
+
+* Fork the repository
+* Create feature branches
+* Submit pull requests
+
+---
+
+# 👤 Author
+
+## Soumya Ramchandran
+
+Aspiring Data Analyst | AI & BI Enthusiast | SQL & Backend Development Learner
+
+---
+
+# 🔗 GitHub Repository
+
+GitHub:
+[https://github.com/soumyaR5/sql-tutor-and-query-debugger](https://github.com/soumyaR5/sql-tutor-and-query-debugger)
+
+---
+
+# ⭐ Support
+
+If you found this project useful:
+
+* Give this repository a ⭐
+* Share feedback
+* Connect on LinkedIn
+
+---
+
+# 📄 License
+
+This project is intended for educational and learning purposes.
